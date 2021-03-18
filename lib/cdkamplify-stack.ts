@@ -12,7 +12,7 @@ export class CdkamplifyStack extends cdk.Stack {
     const SSM_PARAM_NAME = PREFIX_NAME + '-exports-json'
 
     const repo = new codecommit.Repository(this, "repo", {
-      repositoryName: PREFIX_NAME.replace('cdk', '') + '-repo',
+      repositoryName: PREFIX_NAME + '-repo',
     });
     
     const param = ssm.StringParameter.fromStringParameterName(this, 'param', SSM_PARAM_NAME)
