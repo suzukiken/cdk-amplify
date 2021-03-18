@@ -1,7 +1,6 @@
 import * as cdk from "@aws-cdk/core";
 import * as codecommit from "@aws-cdk/aws-codecommit";
 import * as amplify from "@aws-cdk/aws-amplify";
-import * as iam from "@aws-cdk/aws-iam";
 import * as ssm from "@aws-cdk/aws-ssm";
 
 export class CdkamplifyStack extends cdk.Stack {
