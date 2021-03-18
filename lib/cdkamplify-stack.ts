@@ -35,7 +35,7 @@ export class CdkamplifyStack extends cdk.Stack {
       environmentVariables: {
         SSM_PARAMETER_NAME: `${PREFIX_NAME}-exports-json`,
       },
-      role: role
+      // role: role
     });
     
     const masterBranch = app.addBranch("master");
