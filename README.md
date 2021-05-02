@@ -5,4 +5,4 @@ To deploy Amplify React Web Site through Amplify Console.
 * `npm install`
 * `cdk deploy`
 
-[description](https://figmentresearch.com/aws/cdkamplify)
+[description](https://note.figmentresearch.com/aws/cdkamplify)
